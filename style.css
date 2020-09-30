@@ -1,0 +1,110 @@
+nav{
+    list-style: none;
+    background-color: #655151;
+    padding: 10px;
+}
+    
+header li{
+    display: inline;
+    margin: 20px;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: black;
+}
+
+form{
+    text-align: center;
+}
+
+li a{
+    color: floralwhite;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: black;
+
+}
+
+button{
+    background-color: #846969;
+    cursor: pointer;
+    color: floralwhite;
+    font-size: 20px;
+    border-radius: 12px;
+}
+
+button:hover{
+    background-color: rgb(44, 44, 43);
+    color:  #ffc5c5;
+}
+
+#field1{
+    background-color: #EEE1E1;
+}
+
+footer{
+    background-color:#655151 ;
+    padding: 5px;
+    text-align: center;
+    color:floralwhite
+}
+
+#sideBar li a{
+    text-align: center;
+    background-color:#655151 ;
+    margin-left: 5%;
+    width:10%;
+    height: 100%;
+}
+
+.menuBar{
+    position: fixed;
+    right:20px;
+    width:250px;
+    height: 100%;
+    background: #655151;
+}
+
+.menuBar li{
+    list-style: none;
+    margin: 20px
+}
+
+footer li{
+    list-style: none;
+    display: inline;
+    margin: 10px;
+}
+
+header img{
+    position: relative;
+    left: 1000px;
+}
+
+.sidenav a {
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: floralwhite;
+    display: block;
+  }
+
+  .sidenav {
+    height: 100%;
+    width: 190px;
+    position: fixed;
+    z-index: 1;
+    top: 100px;
+    left: 1320px;
+    background-color: #655151;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .sidenav a:hover {
+    color:black;
+  }
